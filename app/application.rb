@@ -44,7 +44,7 @@ class Application
     if @@items.include?(search_term)
       return "added #{search_term}"
     else
-      return "Couldn't find #{search_term}"
+      return "We don't have that item"
     end
   end
   
